@@ -1,0 +1,17 @@
+Start
+	    Initialize a ‘Scanner’ object to read user input.
+	    Declare an array ‘grades’ of size 10 to store grades.
+      Declare variables ‘sum’, ‘max’, and’ min’ to track sum, maximum, and minimum grades.
+      Print message asking user to enter 10 grades.
+      For each grade from 1 to 10:
+	          Prompt user to enter grade.
+	          While input is not a valid floating-point number:
+		              Print error message and prompt user to enter grade again.
+	          Add valid grade to ‘grades’ array.
+	          Add grade to ‘sum’. 
+	          Update ‘max’ if grade is greater than current ‘max’.
+	          Update ‘min’ if grade is less than current ‘min’.
+      Calculate average by dividing ‘sum’ by 10.
+      Print average, maximum, and minimum grades.
+      Close the ‘Scanner’ object. 
+End  
